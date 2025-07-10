@@ -1,0 +1,10 @@
+[project]
+name = "finetune-tabpfn"
+version = "0.1.0"
+description = "Simple example of fine-tunning TabPFN regressor"
+readme = "README.md"
+requires-python = ">=3.11"
+dependencies = [
+    "tabpfn>=2.1.0",
+    "torch==2.2.2",
+]
