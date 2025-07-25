@@ -103,7 +103,7 @@ for epoch in range(do_epochs):
             X_tests_preprocessed
         )
 
-        lossfn = normalized_bardist_[0]
+        lossfn = bardist_[0]
 
         # compute the loss
         nll_loss_per_sample = lossfn(averaged_pred_logits, y_test_standardized.to(device))
